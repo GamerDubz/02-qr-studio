@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const isProd = process.env.NODE_ENV === "production";
-const repoName = "02-qr-studio";
+const repoName = "qr-studio";
 
 const nextConfig: NextConfig = {
   output: "export",
